@@ -8,5 +8,4 @@ test('Browserstack homepage verification', async ({ page }) => {
     await homepage.goto();
     await homepage.clickOnProducts();
     // await expect(homepage.productmenudropdown).toContainText(["Live", "Automate", "Percy", "App Live", "App Automate","App Percy", "Test Observability", "Nightwatch.js" ])
-    // await expect(homepage.productmenudropdown).toBeEnabled()
 });
