@@ -1,4 +1,4 @@
-//demo.spec.ts test
+//demo.spec.ts
 
 import { test, expect, Page } from '@playwright/test';
 
